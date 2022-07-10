@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1a657d1a37.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -188,9 +190,12 @@
             <div class="sec-3-main">
                 <div class="ins-sec-3-main">
                     <div class="sec-3-nav">
+                        <div class="select-div">
                             <select name="" id="all-cars">
                                 <option value="all-cars">Все авто</option>
                             </select>
+                        </div>
+                            
     
                             <input type="text" id="inp-sec-3-search" placeholder="Поиск:">
     
@@ -421,11 +426,13 @@
             </div>
 
             <div class="more-cars-div">
-                <form action="/">
-                    <select name="" id="select-more-cars">
-                        <option value="more-cars">Смотреть Больше авто</option>
-                    </select>
-                </form>
+                <div class="ins-more-cars-div">
+                    <div class="select-div">
+                        <select name="" id="select-more-cars">
+                            <option value="more-cars">Смотреть Больше авто</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -643,21 +650,31 @@
             <div class="ins-sec-8-main">
                 <div class="sec-8-form">
                     <form action="/">
-                        <select name="" class="sec-8-select">
-                            <option value="">В чем разница между обменом автомобиля и трейд-ин?</option>
-                        </select>
-                        <select name="" class="sec-8-select">
-                            <option value="">Как оформляет обмен автомобиля?</option>
-                        </select>
-                        <select name="" class="sec-8-select">
-                            <option value="">Можно ли обменять один автомобиль на два?</option>
-                        </select>
-                        <select name="" class="sec-8-select">
-                            <option value="">Будет ли скидка при обмене на автомобиль с пробегом?</option>
-                        </select>
-                        <select name="" class="sec-8-select">
-                            <option value="">Сколько времени занимает оформление?</option>
-                        </select>
+                        <div class="select-div">
+                            <select name="" class="sec-8-select">
+                                <option value="">В чем разница между обменом автомобиля и трейд-ин?</option>
+                            </select>
+                        </div>
+                        <div class="select-div">
+                            <select name="" class="sec-8-select">
+                                <option value="">Как оформляет обмен автомобиля?</option>
+                            </select>
+                        </div>
+                        <div class="select-div">
+                            <select name="" class="sec-8-select">
+                                <option value="">Можно ли обменять один автомобиль на два?</option>
+                            </select>
+                        </div>
+                        <div class="select-div">
+                            <select name="" class="sec-8-select">
+                                <option value="">Будет ли скидка при обмене на автомобиль с пробегом?</option>
+                            </select>
+                        </div>
+                        <div class="select-div">
+                            <select name="" class="sec-8-select">
+                                <option value="">Сколько времени занимает оформление?</option>
+                            </select>
+                        </div>
                     </form>
                 </div>
                 <div class="sec-8-bg-img-div">
